@@ -1,0 +1,228 @@
+{
+    "categories": [
+        {
+            "id": 0,
+            "name": "Outdoors",
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 1,
+            "name": "Books",
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 2,
+            "name": "Automotive",
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "name": "Handcrafted Concrete Hat",
+            "quantity": 1000,
+            "price": 925,
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 0,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 1,
+            "name": "Sleek Rubber Soap",
+            "quantity": 1000,
+            "price": 880,
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 0,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 2,
+            "name": "Licensed Rubber Chair",
+            "quantity": 1000,
+            "price": 943,
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 0,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 3,
+            "name": "Intelligent Rubber Bike",
+            "quantity": 1000,
+            "price": 608,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 1,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 4,
+            "name": "Fantastic Granite Soap",
+            "quantity": 1000,
+            "price": 233,
+            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 1,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 5,
+            "name": "Awesome Soft Shirt",
+            "quantity": 1000,
+            "price": 404,
+            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 1,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 6,
+            "name": "Handmade Concrete Shirt",
+            "quantity": 1000,
+            "price": 806,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 2,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 7,
+            "name": "Rustic Steel Cheese",
+            "quantity": 1000,
+            "price": 956,
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 2,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 8,
+            "name": "Unbranded Plastic Chicken",
+            "quantity": 1000,
+            "price": 968,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 2,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "name": "Xe đạp",
+            "quantity": 1000,
+            "price": 400,
+            "description": "Xe đạp siêu đẹp cute",
+            "imageUrl": "http://placeimg.com/400/400",
+            "categoryId": 1,
+            "createdAt": 1620490845449,
+            "updatedAt": 1620490845449,
+            "id": 9
+        }
+    ],
+    "carts": [
+        {
+            "id": 0,
+            "userId": "fdb3d6ac-0625-4838-8a98-828c7c003e86",
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 1,
+            "userId": "a8addd18-60d9-4274-a7e3-8cfca88d7ab7",
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 2,
+            "userId": "f416b73f-806c-4d0c-8d54-08291f647962",
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        }
+    ],
+    "orders": [
+        {
+            "id": 0,
+            "quantity": 1,
+            "cartId": 0,
+            "productId": 0,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 1,
+            "quantity": 1,
+            "cartId": 0,
+            "productId": 5,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 2,
+            "quantity": 1,
+            "cartId": 0,
+            "productId": 5,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 3,
+            "quantity": 1,
+            "cartId": 1,
+            "productId": 6,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 4,
+            "quantity": 1,
+            "cartId": 1,
+            "productId": 0,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 5,
+            "quantity": 1,
+            "cartId": 1,
+            "productId": 0,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 6,
+            "quantity": 1,
+            "cartId": 2,
+            "productId": 0,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 7,
+            "quantity": 1,
+            "cartId": 2,
+            "productId": 0,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        },
+        {
+            "id": 8,
+            "quantity": 1,
+            "cartId": 2,
+            "productId": 3,
+            "createdAt": 1620490201602,
+            "updatedAt": 1620490201602
+        }
+    ]
+}

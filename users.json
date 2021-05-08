@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "userName": "SongOanh93",
+            "password": "1Bv7l6hRvRclGeJ",
+            "name": "Liên Phương Vũ",
+            "phoneNumber": "021 3150 1459",
+            "address": "Quincy",
+            "createdAt": 1620490201603,
+            "updatedAt": 1620490201603
+        },
+        {
+            "id": 1,
+            "userName": "PhươngQuân.Hoàng",
+            "password": "L4CYNxPbf9Pm7eB",
+            "name": "Cao Nghiệp Mai",
+            "phoneNumber": "022 6563 6846",
+            "address": "Cleveland Heights",
+            "createdAt": 1620490201603,
+            "updatedAt": 1620490201603
+        },
+        {
+            "id": 2,
+            "userName": "QuangTài.Dương",
+            "password": "xr9d4DdIHvUFog1",
+            "name": "Hạc Cúc Phùng Sr.",
+            "phoneNumber": "028 5510 8630",
+            "address": "Madison",
+            "createdAt": 1620490201603,
+            "updatedAt": 1620490201603
+        },
+        {
+            "id": 3,
+            "userName": "trieunguyen",
+            "password": "trieunguyen",
+            "name": null,
+            "phoneNumber": null,
+            "address": null,
+            "createdAt": 1620490296978,
+            "updatedAt": 1620490296978
+        }
+    ]
+}
