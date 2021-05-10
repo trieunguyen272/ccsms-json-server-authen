@@ -2,133 +2,90 @@
     "categories": [
         {
             "id": 0,
-            "name": "Outdoors",
+            "name": "USB",
             "createdAt": 1620490201601,
             "updatedAt": 1620490201601
         },
         {
             "id": 1,
-            "name": "Books",
+            "name": "SSD",
             "createdAt": 1620490201601,
             "updatedAt": 1620490201601
         },
         {
             "id": 2,
-            "name": "Automotive",
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        }
-    ],
-    "products": [
-        {
-            "id": 0,
-            "name": "Handcrafted Concrete Hat",
-            "quantity": 1000,
-            "price": 925,
-            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 0,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 1,
-            "name": "Sleek Rubber Soap",
-            "quantity": 1000,
-            "price": 880,
-            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 0,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 2,
-            "name": "Licensed Rubber Chair",
-            "quantity": 1000,
-            "price": 943,
-            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 0,
+            "name": "HDD",
             "createdAt": 1620490201601,
             "updatedAt": 1620490201601
         },
         {
             "id": 3,
-            "name": "Intelligent Rubber Bike",
-            "quantity": 1000,
-            "price": 608,
-            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-            "imageUrl": "http://placeimg.com/400/400",
+            "name": "THẺ NHỚ",
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "name": "RAM",
+            "createdAt": 1620582442839,
+            "updatedAt": 1620582442839,
+            "id": 4
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "name": "USB Sandisk 32GB",
+            "quantity": 200,
+            "price": 350000,
+            "description": "Nhà sản xuất: Sandisk; Thông số: 32GB",
+            "imageUrl": "https://lh3.googleusercontent.com/atWDWV8xYjE05-d2IwxbIPxR5k0G01iiC8E_ufYm_Tg3nKPd-7HqZNSnh8cTWUDaYiori4UYg-oEj69yBQ",
+            "categoryId": 0,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 1,
+            "name": "USK Kingston 16GB",
+            "quantity": 100,
+            "price": 250000,
+            "description": "Nhà sản xuất: Kingston; Thông số: 16GB",
+            "imageUrl": "https://oanhson.com.vn/product_images/c/138/1__12046_zoom.png",
+            "categoryId": 0,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 2,
+            "name": "SSD Kingston 256GB",
+            "quantity": 300,
+            "price": 1050000,
+            "description": "Nhà sản xuất: Kingston; Thông số: 256GB",
+            "imageUrl": "https://duylinhlaptop.vn/images/pro/o-cung-ssd-kingston-256gb-kc400_8092.jpg",
             "categoryId": 1,
+            "createdAt": 1620490201601,
+            "updatedAt": 1620490201601
+        },
+        {
+            "id": 3,
+            "name": "RAM Kingmax 8GB",
+            "quantity": 500,
+            "price": 1050000,
+            "description": "Nhà sản xuất: Kingmax; Thông số: 8GB",
+            "imageUrl": "https://3.bp.blogspot.com/-_1TgL4A0p_M/XHV-cFJUw1I/AAAAAAAAJwo/O1U1N43gQm4iwylYqoSP_FiPlIbXQkpiwCLcBGAs/s1600/Screenshot_20190226-230521%257E2.jpg",
+            "categoryId": 4,
             "createdAt": 1620490201601,
             "updatedAt": 1620490201601
         },
         {
             "id": 4,
-            "name": "Fantastic Granite Soap",
-            "quantity": 1000,
-            "price": 233,
-            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-            "imageUrl": "http://placeimg.com/400/400",
+            "name": "SSD Sandisk 240GB",
+            "quantity": 8000,
+            "price": 850000,
+            "description": "Nhà sản xuất: Sandisk; Thông số: 240GB",
+            "imageUrl": "https://anphat.com.vn/media/product/21963_sandisk_ssd_plus_120gb_solid_state_drive_sdssda_120g_0539_2502013_1.jpg",
             "categoryId": 1,
             "createdAt": 1620490201601,
             "updatedAt": 1620490201601
-        },
-        {
-            "id": 5,
-            "name": "Awesome Soft Shirt",
-            "quantity": 1000,
-            "price": 404,
-            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 1,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 6,
-            "name": "Handmade Concrete Shirt",
-            "quantity": 1000,
-            "price": 806,
-            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 2,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 7,
-            "name": "Rustic Steel Cheese",
-            "quantity": 1000,
-            "price": 956,
-            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 2,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 8,
-            "name": "Unbranded Plastic Chicken",
-            "quantity": 1000,
-            "price": 968,
-            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 2,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "name": "Xe đạp",
-            "quantity": 1000,
-            "price": 400,
-            "description": "Xe đạp siêu đẹp cute",
-            "imageUrl": "http://placeimg.com/400/400",
-            "categoryId": 1,
-            "createdAt": 1620490845449,
-            "updatedAt": 1620490845449,
-            "id": 9
         }
     ],
     "carts": [
