@@ -12,12 +12,6 @@ Install node module:
 npm install
 ```
 
-Start JSON Server:
-
-```
-json-server --watch db.json
-```
-
 Run dev environment:
 
 ```
