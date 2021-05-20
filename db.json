@@ -91,19 +91,19 @@
     "carts": [
         {
             "id": 0,
-            "userId": "fdb3d6ac-0625-4838-8a98-828c7c003e86",
+            "userId": "3",
             "createdAt": 1620490201602,
             "updatedAt": 1620490201602
         },
         {
             "id": 1,
-            "userId": "a8addd18-60d9-4274-a7e3-8cfca88d7ab7",
+            "userId": "1",
             "createdAt": 1620490201602,
             "updatedAt": 1620490201602
         },
         {
             "id": 2,
-            "userId": "f416b73f-806c-4d0c-8d54-08291f647962",
+            "userId": "2",
             "createdAt": 1620490201602,
             "updatedAt": 1620490201602
         }
