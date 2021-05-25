@@ -1,185 +1,147 @@
 {
-    "categories": [
-        {
-            "id": 0,
-            "name": "USB",
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 1,
-            "name": "SSD",
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 2,
-            "name": "HDD",
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 3,
-            "name": "THẺ NHỚ",
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "name": "RAM",
-            "createdAt": 1620582442839,
-            "updatedAt": 1620582442839,
-            "id": 4
-        }
-    ],
-    "products": [
-        {
-            "id": 0,
-            "name": "USB Sandisk 32GB",
-            "quantity": 200,
-            "price": 350000,
-            "description": "Nhà sản xuất: Sandisk; Thông số: 32GB",
-            "imageUrl": "https://lh3.googleusercontent.com/atWDWV8xYjE05-d2IwxbIPxR5k0G01iiC8E_ufYm_Tg3nKPd-7HqZNSnh8cTWUDaYiori4UYg-oEj69yBQ",
-            "categoryId": 0,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 1,
-            "name": "USB Kingston 16GB",
-            "quantity": 100,
-            "price": 250000,
-            "description": "Nhà sản xuất: Kingston; Thông số: 16GB",
-            "imageUrl": "https://oanhson.com.vn/product_images/c/138/1__12046_zoom.png",
-            "categoryId": 0,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 2,
-            "name": "SSD Kingston 256GB",
-            "quantity": 300,
-            "price": 1050000,
-            "description": "Nhà sản xuất: Kingston; Thông số: 256GB",
-            "imageUrl": "https://duylinhlaptop.vn/images/pro/o-cung-ssd-kingston-256gb-kc400_8092.jpg",
-            "categoryId": 1,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 3,
-            "name": "RAM Kingmax 8GB",
-            "quantity": 500,
-            "price": 1050000,
-            "description": "Nhà sản xuất: Kingmax; Thông số: 8GB",
-            "imageUrl": "https://3.bp.blogspot.com/-_1TgL4A0p_M/XHV-cFJUw1I/AAAAAAAAJwo/O1U1N43gQm4iwylYqoSP_FiPlIbXQkpiwCLcBGAs/s1600/Screenshot_20190226-230521%257E2.jpg",
-            "categoryId": 4,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        },
-        {
-            "id": 4,
-            "name": "SSD Sandisk 240GB",
-            "quantity": 8000,
-            "price": 850000,
-            "description": "Nhà sản xuất: Sandisk; Thông số: 240GB",
-            "imageUrl": "https://anphat.com.vn/media/product/21963_sandisk_ssd_plus_120gb_solid_state_drive_sdssda_120g_0539_2502013_1.jpg",
-            "categoryId": 1,
-            "createdAt": 1620490201601,
-            "updatedAt": 1620490201601
-        }
-    ],
-    "carts": [
-        {
-            "id": 0,
-            "userId": "3",
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 1,
-            "userId": "1",
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 2,
-            "userId": "2",
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        }
-    ],
-    "orders": [
-        {
-            "id": 0,
-            "quantity": 1,
-            "cartId": 0,
-            "productId": 0,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 1,
-            "quantity": 1,
-            "cartId": 0,
-            "productId": 5,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 2,
-            "quantity": 1,
-            "cartId": 0,
-            "productId": 5,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 3,
-            "quantity": 1,
-            "cartId": 1,
-            "productId": 6,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 4,
-            "quantity": 1,
-            "cartId": 1,
-            "productId": 0,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 5,
-            "quantity": 1,
-            "cartId": 1,
-            "productId": 0,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 6,
-            "quantity": 1,
-            "cartId": 2,
-            "productId": 0,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 7,
-            "quantity": 1,
-            "cartId": 2,
-            "productId": 0,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        },
-        {
-            "id": 8,
-            "quantity": 1,
-            "cartId": 2,
-            "productId": 3,
-            "createdAt": 1620490201602,
-            "updatedAt": 1620490201602
-        }
-    ]
+  "categories": [
+    {
+      "id": 0,
+      "name": "USB",
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 1,
+      "name": "SSD",
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 2,
+      "name": "HDD",
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 3,
+      "name": "THẺ NHỚ",
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "name": "RAM",
+      "createdAt": 1620582442839,
+      "updatedAt": 1620582442839,
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "name": "USB Sandisk 32GB",
+      "quantity": 200,
+      "price": 350000,
+      "description": "Nhà sản xuất: Sandisk; Thông số: 32GB",
+      "imageUrl": "https://lh3.googleusercontent.com/atWDWV8xYjE05-d2IwxbIPxR5k0G01iiC8E_ufYm_Tg3nKPd-7HqZNSnh8cTWUDaYiori4UYg-oEj69yBQ",
+      "categoryId": 0,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 1,
+      "name": "USB Kingston 16GB",
+      "quantity": 100,
+      "price": 250000,
+      "description": "Nhà sản xuất: Kingston; Thông số: 16GB",
+      "imageUrl": "https://oanhson.com.vn/product_images/c/138/1__12046_zoom.png",
+      "categoryId": 0,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 2,
+      "name": "SSD Kingston 256GB",
+      "quantity": 300,
+      "price": 1050000,
+      "description": "Nhà sản xuất: Kingston; Thông số: 256GB",
+      "imageUrl": "https://duylinhlaptop.vn/images/pro/o-cung-ssd-kingston-256gb-kc400_8092.jpg",
+      "categoryId": 1,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 3,
+      "name": "RAM Kingmax 8GB",
+      "quantity": 500,
+      "price": 1050000,
+      "description": "Nhà sản xuất: Kingmax; Thông số: 8GB",
+      "imageUrl": "https://3.bp.blogspot.com/-_1TgL4A0p_M/XHV-cFJUw1I/AAAAAAAAJwo/O1U1N43gQm4iwylYqoSP_FiPlIbXQkpiwCLcBGAs/s1600/Screenshot_20190226-230521%257E2.jpg",
+      "categoryId": 4,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 4,
+      "name": "SSD Sandisk 240GB",
+      "quantity": 8000,
+      "price": 850000,
+      "description": "Nhà sản xuất: Sandisk; Thông số: 240GB",
+      "imageUrl": "https://anphat.com.vn/media/product/21963_sandisk_ssd_plus_120gb_solid_state_drive_sdssda_120g_0539_2502013_1.jpg",
+      "categoryId": 1,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    }
+  ],
+  "carts": [
+    {
+      "userId": 2,
+      "createdAt": 1621593782319,
+      "updatedAt": 1621593782319,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "createdAt": 1621698114056,
+      "updatedAt": 1621698114056,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "createdAt": 1621698308466,
+      "updatedAt": 1621698308466,
+      "id": 3
+    },
+    {
+      "userId": 17,
+      "createdAt": 1621714332266,
+      "updatedAt": 1621714332266,
+      "id": 4
+    },
+    {
+      "userId": 15,
+      "createdAt": 1621714391200,
+      "updatedAt": 1621714391200,
+      "id": 5
+    },
+    {
+      "userId": null,
+      "createdAt": 1621847476472,
+      "updatedAt": 1621847476472,
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "cartId": "4",
+      "quantity": 5,
+      "productId": 2,
+      "createdAt": 1621846522193,
+      "updatedAt": 1621846522193,
+      "id": 5
+    },
+    {
+      "cartId": "3",
+      "quantity": 4,
+      "productId": 0,
+      "createdAt": 1621923681170,
+      "updatedAt": 1621923681170,
+      "id": 7
+    }
+  ]
 }
