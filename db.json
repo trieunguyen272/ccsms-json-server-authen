@@ -90,58 +90,49 @@
   ],
   "carts": [
     {
-      "userId": 2,
-      "createdAt": 1621593782319,
-      "updatedAt": 1621593782319,
+      "userId": 3,
+      "createdAt": 1622137300923,
+      "updatedAt": 1622137300923,
       "id": 1
     },
     {
-      "userId": 1,
-      "createdAt": 1621698114056,
-      "updatedAt": 1621698114056,
-      "id": 2
-    },
-    {
-      "userId": 3,
-      "createdAt": 1621698308466,
-      "updatedAt": 1621698308466,
-      "id": 3
-    },
-    {
       "userId": 17,
-      "createdAt": 1621714332266,
-      "updatedAt": 1621714332266,
-      "id": 4
-    },
-    {
-      "userId": 15,
-      "createdAt": 1621714391200,
-      "updatedAt": 1621714391200,
-      "id": 5
-    },
-    {
-      "userId": null,
-      "createdAt": 1621847476472,
-      "updatedAt": 1621847476472,
-      "id": 6
+      "createdAt": 1622137393023,
+      "updatedAt": 1622137393023,
+      "id": 2
     }
   ],
   "orders": [
     {
-      "cartId": "4",
-      "quantity": 5,
-      "productId": 2,
-      "createdAt": 1621846522193,
-      "updatedAt": 1621846522193,
-      "id": 5
+      "cartId": "2",
+      "quantity": 27,
+      "productId": 4,
+      "createdAt": 1622137393115,
+      "updatedAt": 1622185238514,
+      "id": 2
     },
     {
-      "cartId": "3",
-      "quantity": 4,
+      "cartId": "1",
+      "quantity": 3,
       "productId": 0,
-      "createdAt": 1621923681170,
-      "updatedAt": 1621923681170,
-      "id": 7
+      "createdAt": 1622159732391,
+      "updatedAt": 1622159765702,
+      "id": 3
+    },
+    {
+      "cartId": "1",
+      "quantity": 6,
+      "productId": 1,
+      "createdAt": 1622159737846,
+      "updatedAt": 1622159855096,
+      "id": 4
+    }
+  ],
+  "bills": [
+    {
+      "createdAt": 1622147408070,
+      "updatedAt": 1622147408070,
+      "id": 1
     }
   ]
 }

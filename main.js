@@ -64,7 +64,7 @@ router.render = (req, res) => {
 
 // // FOR USER AUTHENTICATION
 const SECRET_KEY = '123456789';
-const expiresIn = '1h';
+const expiresIn = '1d';
 
 // Create a token from a payload
 function createToken(payload) {
@@ -89,7 +89,7 @@ server.post(`${rootLink}/user/register`, (req, res) => {
 
   if (findUserIndex({ username, password }) != -1) {
     const status = 401;
-    const message = 'username and Password already exist';
+    const message = 'username and password already exist';
     res.status(status).json({ status, message });
     return;
   }
