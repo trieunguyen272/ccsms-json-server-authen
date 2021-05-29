@@ -86,6 +86,72 @@
       "categoryId": 1,
       "createdAt": 1620490201601,
       "updatedAt": 1620490201601
+    },
+    {
+      "id": 5,
+      "name": "SSD Kingston 240GB",
+      "quantity": 7000,
+      "price": 13000000,
+      "description": "Nhà sản xuất: Kingston; Thông số: 240GB",
+      "imageUrl": "https://phongvu.vn/media/wysiwyg/USB-HDD-SSD/Kingston/O-cung-SSD-120GB-Kingston-SUV400S37-1.jpg",
+      "categoryId": 1,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 6,
+      "name": "SSD Kingspec 120GB",
+      "quantity": 3000,
+      "price": 700000,
+      "description": "Nhà sản xuất: Kingspec; Thông số: 120GB",
+      "imageUrl": "https://product.hstatic.net/1000288298/product/hdd-2-5-ssd-60gb-240-gb-360gb-sata3-ssd-internal-solid-state-drive-ssd_a8f08965f118483e9d359c7466049dae.jpg",
+      "categoryId": 1,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 7,
+      "name": "HDD Seagate 500GB",
+      "quantity": 7000,
+      "price": 12000000,
+      "description": "Nhà sản xuất: Seagate; Thông số: 500GB",
+      "imageUrl": "https://nytshop.com/images/thumbs/001/0011453_o-cung-hdd-500g-seagate-sata_600.jpeg",
+      "categoryId": 2,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 8,
+      "name": "HDD Toshiba 200GB",
+      "quantity": 8000,
+      "price": 1100000,
+      "description": "Nhà sản xuất: Toshiba; Thông số: 200GB",
+      "imageUrl": "https://salt.tikicdn.com/cache/w444/ts/product/7e/b3/aa/0f17e51470455f73f6eb08376670ece7.jpg",
+      "categoryId": 2,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 9,
+      "name": "TNhớ Microsd 32GB",
+      "quantity": 5000,
+      "price": 150000,
+      "description": "Nhà sản xuất: Microsd; Thông số: 32GB",
+      "imageUrl": "https://cdn.tgdd.vn/Products/Images/55/69974/the-nho-microsd-32gb-class-10-305520-105555-600x600.jpg",
+      "categoryId": 3,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
+    },
+    {
+      "id": 10,
+      "name": "RAM Kingmax 4GB",
+      "quantity": 7000,
+      "price": 650000,
+      "description": "Nhà sản xuất: Kingmax; Thông số: 4GB",
+      "imageUrl": "https://laptop88.vn/media/product/4608_ram_kingmax_4g_1.jpg",
+      "categoryId": 4,
+      "createdAt": 1620490201601,
+      "updatedAt": 1620490201601
     }
   ],
   "carts": [
@@ -116,6 +182,14 @@
       "createdAt": 1622137393115,
       "updatedAt": 1622185238514,
       "id": 2
+    },
+    {
+      "cartId": "3",
+      "quantity": 5,
+      "productId": 3,
+      "createdAt": 1622259697044,
+      "updatedAt": 1622259697044,
+      "id": 3
     }
   ],
   "bills": [
