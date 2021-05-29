@@ -100,6 +100,12 @@
       "createdAt": 1622137393023,
       "updatedAt": 1622137393023,
       "id": 2
+    },
+    {
+      "userId": 10,
+      "createdAt": 1622229874221,
+      "updatedAt": 1622229874221,
+      "id": 3
     }
   ],
   "orders": [
@@ -110,29 +116,104 @@
       "createdAt": 1622137393115,
       "updatedAt": 1622185238514,
       "id": 2
-    },
-    {
-      "cartId": "1",
-      "quantity": 3,
-      "productId": 0,
-      "createdAt": 1622159732391,
-      "updatedAt": 1622159765702,
-      "id": 3
-    },
-    {
-      "cartId": "1",
-      "quantity": 6,
-      "productId": 1,
-      "createdAt": 1622159737846,
-      "updatedAt": 1622159855096,
-      "id": 4
     }
   ],
   "bills": [
     {
-      "createdAt": 1622147408070,
-      "updatedAt": 1622147408070,
+      "orders": [
+        {
+          "quantity": 1,
+          "productId": 2,
+          "price": 1050000
+        },
+        {
+          "quantity": 1,
+          "productId": 2,
+          "price": 1050000
+        },
+        {
+          "quantity": 1,
+          "productId": 2,
+          "price": 1050000
+        },
+        {
+          "quantity": 1,
+          "productId": 2,
+          "price": 1050000
+        },
+        {
+          "quantity": 3,
+          "productId": 2,
+          "price": 3150000
+        },
+        {
+          "quantity": 2,
+          "productId": 2,
+          "price": 2100000
+        }
+      ],
+      "userId": 3,
+      "createdAt": 1622222566395,
+      "updatedAt": 1622223544899,
       "id": 1
+    },
+    {
+      "orders": [
+        {
+          "quantity": 7,
+          "productId": 2,
+          "price": 7350000
+        },
+        {
+          "quantity": 2,
+          "productId": 1,
+          "price": 500000
+        },
+        {
+          "quantity": 3,
+          "productId": 3,
+          "price": 3150000
+        },
+        {
+          "quantity": 2,
+          "productId": 1,
+          "price": 500000
+        },
+        {
+          "quantity": 3,
+          "productId": 0,
+          "price": 1050000
+        },
+        {
+          "quantity": 2,
+          "productId": 4,
+          "price": 1700000
+        },
+        {
+          "quantity": 1,
+          "productId": 1,
+          "price": 250000
+        },
+        {
+          "quantity": 1,
+          "productId": 2,
+          "price": 1050000
+        },
+        {
+          "quantity": 2,
+          "productId": 1,
+          "price": 500000
+        },
+        {
+          "quantity": 5,
+          "productId": 0,
+          "price": 1750000
+        }
+      ],
+      "userId": 10,
+      "createdAt": 1622232176380,
+      "updatedAt": 1622258281831,
+      "id": 2
     }
   ]
 }

@@ -77,19 +77,19 @@ function verifyToken(token) {
 }
 
 // Check if the user exists in database
-function findUserIndex({ username, password }) {
-  return userDb.users.findIndex((user) => user.username === username && user.password === password);
+function findUserIndex({ userName, password }) {
+  return userDb.users.findIndex((user) => user.userName === userName && user.password === password);
 }
 
 // Register New User
 server.post(`${rootLink}/user/register`, (req, res) => {
   console.log('register endpoint called; request body:');
   console.log(req.body);
-  const { username, password, name, phoneNumber, address } = req.body;
+  const { userName, password, name, phoneNumber, address } = req.body;
 
-  if (findUserIndex({ username, password }) != -1) {
+  if (findUserIndex({ userName, password }) != -1) {
     const status = 401;
-    const message = 'username and password already exist';
+    const message = 'userName and password already exist';
     res.status(status).json({ status, message });
     return;
   }
@@ -110,7 +110,7 @@ server.post(`${rootLink}/user/register`, (req, res) => {
 
     const user_data = {
       id: last_item_id + 1,
-      username: username,
+      userName: userName,
       password: password,
       name: name || null,
       phoneNumber: phoneNumber || null,
@@ -141,30 +141,34 @@ server.post(`${rootLink}/user/register`, (req, res) => {
 server.post(`${rootLink}/user/login`, (req, res) => {
   console.log('login endpoint called; request body:');
   console.log(req.body);
-  const { username, password } = req.body;
-  if (findUserIndex({ username, password }) === -1) {
+  const { userName, password } = req.body;
+  if (findUserIndex({ userName, password }) === -1) {
     const status = 401;
-    const message = 'Incorrect username or password';
+    const message = 'Incorrect userName or password';
     res.status(status).jsonp({ status, message });
     return;
   }
 
   // Get user
-  const user_info = userDb.users[findUserIndex({ username, password })];
+  const user_info = userDb.users[findUserIndex({ userName, password })];
   const user_id = user_info['id'];
   const user_fullname = user_info['name'];
   const user_phone = user_info['phoneNumber'];
   const user_address = user_info['address'];
   console.log('User info: ' + user_info);
 
-  const access_token = createToken({ username, password });
+  const access_token = createToken({ userName, password });
   console.log('Access Token:' + access_token);
 
   res.status(200).json({ access_token, user_id, user_fullname, user_phone, user_address });
 });
 
 server.use((req, res, next) => {
-  if (req.originalUrl.includes('/carts') || req.originalUrl.includes('/orders')) {
+  if (
+    req.originalUrl.includes('/carts') ||
+    req.originalUrl.includes('/orders') ||
+    req.originalUrl.includes('/bills')
+  ) {
     if (
       req.headers.authorization === undefined ||
       req.headers.authorization.split(' ')[0] !== 'Bearer'
